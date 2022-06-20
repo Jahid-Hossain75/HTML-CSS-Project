@@ -1,0 +1,129 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+.containar{
+    width: 100%;
+    height: 100vh;
+    background: #fff;
+    position: relative;
+    overflow: hidden;
+    font-family: sans-serif;
+    display: flex;
+}
+.left_said{
+    flex-basis: 50%;
+    height: 100vh;
+    padding-left: 8%;
+    padding-top: 5%;
+}
+.logo{
+    color: #009454;
+    font-size: 19px;
+}
+.left_content_box{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.left_content_box h1{
+    color: #009454;
+    font-size: 55px;
+    margin-bottom: 20px;
+    line-height: 60px;
+}
+.left_content_box p{
+    font-size: 17px;
+    line-height: 25px
+}
+.left_content_box button{
+    margin-top: 40px;
+    width: 190px;
+    padding: 18px 0;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background: #009454;
+    color: #fff;
+    font-size: 14px;
+}
+.right_said{
+    flex-basis: 50%;
+    height: 100vh;
+}
+.right_top{
+    width: 100%;
+    height: 60vh;
+    overflow: hidden;
+}
+.right_top img{
+    width: 100%;
+    height: 60vh;
+}
+.right_bottom{
+    width: 100%;
+    height: 40vh;
+    background: #009454;
+    color: #fff;
+    padding: 30px 0 0 30px;
+}
+.bottom_content_box hr{
+    width: 300px;
+    border: none;
+    height: 1px;
+    background: #b5e3cf;
+    margin: 20px 0 30px;
+}
+.bottom_content_box p{
+    font-size: 15px;
+    line-height: 23px;
+    color: #dedede;
+}
+.icon{
+    margin-top: 50px;
+    position: relative;
+    width: 200px;
+}
+.icon .fas{
+    margin-right: 12px;
+    font-size: 19px;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    padding-top: 10px;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: .4s;
+}
+.icon .fas:hover{
+    background: #fff;
+    color: #009454;
+}
+.icon span{
+    width: 1px;
+    height: 35px;
+    background: #fff;
+    position: absolute;
+    left: 48px;
+    bottom: 2px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+ 770
+#009454
+
+
