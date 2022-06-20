@@ -1,0 +1,293 @@
+/* Extra large devices (large laptops and desktops, 1200px and down) */
+@media only screen and (max-width: 1200px) {
+/**======********header start*********======**/
+    .navbar{
+        width: 95%;
+    }
+    
+    .header_box{
+        width: 95%;
+    }
+
+    .header_content{
+        width: 480px;
+        top: 35%;
+    }
+    
+    .header_content h1{
+        font-size: 50px;
+    }
+    
+    .main_img{
+        width: 500px;
+        right: 0%;
+        bottom: 11%;
+    }
+    
+/**======********products start*********======**/
+    .products_wrp{
+        width: 95%;
+    }
+    
+/**======********smart_band start*********======**/
+    .smart_image img{
+        width: 390px;
+    }
+
+    .smart_text p{
+        width: 450px;
+    }
+    
+/**======********user_information start*********======**/
+    .user_information_wrp{
+        width: 95%;
+    }
+
+/**======********footer start*********======**/
+    .footer_wrp{
+        width: 96%;
+    }
+    
+    .footer hr{
+        width: 96%;
+    }
+    
+}
+
+/* Large devices (laptops/desktops, 990px and down) */
+@media only screen and (max-width: 990px) {
+/******=====header start=====*******/
+    .header_content{
+        width: 380px;
+    }
+    
+    .header_content h1{
+        font-size: 45px;
+    }
+    
+    .main_img{
+        width: 450px;
+    }
+    
+/**======********smart_band start*********======**/
+    .smart_image{
+        padding-right: 0px;
+    }
+
+    .smart_image img{
+        width: 350px;
+    }
+
+    .smart_text h1{
+        font-size: 45px;
+    }
+
+    .smart_text p{
+        width: 350px;
+    }
+    
+/**======********footer start*********======**/
+    .footer_wrp{
+        width: 97%;
+        flex-flow: wrap;
+    }
+    
+    .footer_box{
+        width: 47%;
+    }
+    
+    .footer_box:nth-child(1),
+    .footer_box:nth-child(2){
+        margin-bottom: 35px;
+    }
+    
+    .footer_box:nth-child(3),
+    .footer_box:nth-child(4){
+        width: 47%;
+    }
+    
+}
+
+/* Medium devices (landscape tablets, 768px and down) */
+@media only screen and (max-width: 768px) {
+/**======********header start*********======**/
+    .container{
+        height: 140vh;
+    }
+    
+    ul{
+        width: 100%;
+        height: 312px;
+        background: #000;
+        position: absolute;
+        left: -100%;
+        top: 62px;
+        transition: .5s;
+        z-index: 1;
+    }
+    
+    nav ul li{
+        display: block;
+        text-align: center;
+        line-height: 60px;
+        border-bottom: 1px solid #444;
+    }
+    
+    nav ul li a{
+        color: #fff;
+        font-size: 20px;
+    }
+    
+    nav ul li .active::after,
+    nav ul li a:hover::after{
+        width: 0%;
+    }
+    
+    nav ul li .active,
+    nav ul li a:hover{
+        color: #ff523b;
+    }
+    
+    #check:checked ~ ul{
+        left: 0;
+    }
+    
+    .navbar .checkbtn{
+        display: block;
+        margin: -5px 0 0 25px
+    }
+    
+    .header_content{
+        width: 500px;
+        top: 20%;
+        display: block
+    }
+    
+    .main_img{
+        right: 20%;
+        bottom: 2%;
+        display: block;
+        width: 400px;
+        margin: auto
+    }
+    
+/**======********products start*********======**/
+    .top_image img{
+        width: 47%;
+        margin: auto;
+    }
+    
+    .top_image img:last-child{
+        margin-top: 17px;
+    }
+    
+    .product_image{
+        width: 47%;
+        transition: .5s;
+        margin-bottom: 65px;
+    }
+    
+/**======********smart_band start*********======**/
+    .smart_band{
+        display: block;
+    }
+    
+    .smart_image{
+        flex-basis: 100%;
+        text-align: center;
+        margin-bottom: 25px;
+    }
+    
+    .smart_image img{
+        width: 330px;
+    }
+    
+    .smart_text{
+        flex-basis: 100%;
+        margin-left: 50px;
+    }
+
+    
+/**======********user_information start*********======**/
+    .user_box{
+        width: 47%;
+        margin: auto;
+    }
+    
+    .user_box:last-child{
+        margin-top: 17px;
+    }
+    
+/**======********footer start*********======**/
+    .footer_box{
+        width: 98%;
+        margin: auto;
+        text-align: center;
+    }
+    
+}
+
+/* Small devices (portrait tablets and large phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+/**======********header start*********======**/
+    .container{
+        height: 155vh;
+    }
+    
+    .header_content{
+        width: 400px;
+    }
+    
+    .main_img{
+        right: 6%;
+    }
+    
+    .header_content{
+        width: 95%;
+    }
+/**======********user_information start*********======**/
+    .user_box{
+        width: 95%;
+        margin-top: 17px;
+    }
+    
+}
+    
+/* Extra small devices (phones, 450px and down) */
+@media only screen and (max-width: 450px) {
+    .container{
+        height: 130vh;
+    }
+    
+    .header_content h1{
+        font-size: 30px;
+    }
+    
+    .main_img{
+        right: 0%;
+        width: 300px;
+    }
+    
+/**======********smart_band start*********======**/
+    .smart_text h1{
+        font-size:35px;
+    }
+    
+    .smart_text p{
+        width: 95%;
+    }
+    
+/**======********products start*********======**/
+    .top_image img{
+        width: 95%;
+        margin-top: 17px;
+    }
+    
+    .product_image{
+        width: 95%;
+        margin: auto;
+    }
+}
+    
+    
+
