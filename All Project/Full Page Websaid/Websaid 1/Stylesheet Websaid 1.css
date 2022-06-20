@@ -1,0 +1,254 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+.containar{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url(Picture/background.webp);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+}
+
+.nav{
+    display: flex;
+    width: 86%;
+    margin: auto;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+}
+
+.logo{
+    width: 130px;
+    cursor: pointer;
+}
+
+.nav ul{
+    position: absolute;
+    right: 130px;
+}
+
+.nav ul li{
+    display: inline-block;
+    margin: 0 28px;
+    position: relative;
+}
+
+.nav ul li::after{
+    content: '';
+    position: absolute;
+    top: -7px;
+    left: 0;
+    width: 0;
+    height: 3px;
+    background: linear-gradient(to right, #2fc3d0, #1a1515);
+    transition: .5s
+}
+
+.nav ul li:hover::after{
+    width: 100%;
+}
+
+.nav ul li a{
+    font-size: 19px;
+    color: #fff;
+}
+
+.nav button{
+    width: 110px;
+    font-size: 16px;
+    padding: 10px 0;
+    border: 0;
+    outline: none;
+    cursor: pointer;
+    background: linear-gradient(to right, #2fc3d0, #1a1515);
+    border-radius: 22px;
+    color: #fff;
+}
+
+.nav button:hover{
+    background: linear-gradient(to right, #1a1515, #2fc3d0);
+}
+
+.content_box{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    width: 600px;
+}
+
+.content_box h1{
+    font-size: 47px;
+    color: #2fc3d0;
+}
+
+.content_box input{
+    margin: 25px 0;
+    width: 100%;
+    padding: 11px 0 11px 20px;
+    border-radius: 25px;
+    border: none;
+    outline: none;
+    font-size: 16px;
+}
+
+.content_box p{
+    color: #fff;
+    font-size: 18px;
+}
+
+.glary{
+    padding-left: 10%;
+    padding-right: 10%;
+    margin: 40px 0;
+}
+
+.glary h1{
+    color: #535353;
+    font-size: 26px;
+    margin: 20px 12px;
+    font-family: sans-serif;
+}
+
+.image_glary{
+    display: flex;
+    flex-flow: column wrap;
+    max-height: 2320px;
+    margin: auto;
+    width: 100%;
+}
+
+.ig_block{
+    width: 33.33%;
+    padding: 12px;
+    box-sizing: border-box;
+}
+
+.ig_block img{
+    width: 100%;
+    cursor: pointer;
+    transition: 0.7s;
+}
+
+.ig_block img:hover{
+    transform: scale(1.04);
+    filter: grayscale(80%)
+}
+
+.igggg{
+    width: 100%;
+    height: 572px;
+}
+
+.glary button{
+    margin: 40px auto 50px;
+    display: block;
+    width: 190px;
+    padding: 11px 0;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background: linear-gradient(to right, #2fc3d0, #1a1515);
+    color: #fff;
+    font-size: 15px;
+    border-radius: 25px;
+}
+
+.glary button:hover{
+    background: linear-gradient(to right, #1a1515, #2fc3d0);
+}
+
+.customer{
+    font-family: sans-serif;
+    text-align: center;
+    margin-bottom: 100px;
+}
+ 
+.customer h2{
+    font-size: 27px;
+    margin-bottom: 40px;
+}
+
+.socail img{
+    width: 140px;
+}
+
+.socail{
+    width: 86%;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.socail ul li{
+    display: inline-block;
+    margin-right: 35px;
+    text-align: center;
+    align-items: center;
+    border: 2px solid #2fc3d0;
+    cursor: pointer;
+}
+
+.socail ul li:nth-child(1){
+    padding: 11px 18px;
+}
+.socail ul li:nth-child(2){
+    padding: 9px 18px;
+}
+.socail ul li:nth-child(3){
+    padding: 7px 18px;
+}
+.socail ul li:nth-child(4){
+    margin-right: 0;
+    padding: 6px 18px;
+}
+
+.about{
+    width: 80%;
+    margin: 0 auto 70px;
+    font-family: sans-serif;
+}
+
+.about h2{
+    text-align: center;
+    font-size: 28px;
+    margin-bottom: 40px;
+}
+
+.about p{
+    text-align: justify;
+    line-height: 24px;
+    font-size: 16px;
+}
+
+.footer{
+    width: 100%;
+    height: 50px;
+    background: #bcbcbc;
+}
+
+.footer a{
+    text-align: center;
+    line-height: 50px;
+    margin: auto;
+    display: block;
+    color: #000;
+    font-size: 17px;
+    width: 250px;
+}
+
+.footer a:hover{
+    color: #ff0000;
+}
+
+
+
