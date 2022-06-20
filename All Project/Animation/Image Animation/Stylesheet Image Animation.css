@@ -1,0 +1,161 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+.navbar{
+    width: 100%;
+    height: 65px;
+    background: #2d5661;
+    padding: 0 60px;
+}
+.navbar img{
+    width: 170px;
+    margin-top: 9px
+}
+.navbar button{
+    float: right;
+    margin-top: 16px;
+    padding: 5px 15px;
+    background: #2d5661;
+    color: #fff;
+    border: 1px solid #fff;
+    cursor: pointer;
+}
+.content{
+    display: flex;
+    width: 80%;
+    margin: auto;
+    height: 100vh;
+}
+.left_said{
+    margin: 150px 0 0 80px;
+}
+.left_said h1{
+    font-size: 35px;
+    margin-bottom: 50px;
+    line-height: 40px;
+}
+.left_said p{
+    margin-bottom: 50px;
+    font-size: 17px;
+    line-height: 22px
+}
+.left_said button{
+    padding: 8px 19px;
+    font-size: 13px;
+    border: 0;
+    background: #2d5661;
+    color: #fff;
+    text-transform: uppercase;
+}
+.right_said{
+    display: flex;
+    width: 300px;
+    height: 300px;
+    flex-wrap: wrap;
+    position: absolute;
+    top: 29%;
+    right: 15%;
+}
+.small_img{
+    flex-basis: 100px;
+    cursor: pointer;
+    display: flex;
+    position: relative;
+    transition: 2s;
+}
+.small_img img{
+    width: 100px;
+}
+.small_img::after{
+    content: '';
+    position: absolute;
+    width: 100px;
+    height: 30px;
+    bottom: -30px;
+    left: 8px;
+    background: #2d5661;
+    transform: skewX(26deg);
+}
+.small_img::before{
+    content: '';
+    position: absolute;
+    width: 15px;
+    height: 100px;
+    top: 15px;
+    right: -15px;
+    background: #3c8898;
+    transform: skewY(65deg);
+}
+.right_said:hover .small_img:nth-child(1){
+    transform: translate(-100px, 270px) rotate(360deg);
+}
+.right_said:hover .small_img:nth-child(2){
+    transform: translate(-220px, -90px) rotate(360deg);
+}
+.right_said:hover .small_img:nth-child(3){
+    transform: translate(91px, 275px) rotate(360deg);
+}
+.right_said:hover .small_img:nth-child(4){
+    transform: translate(300px, -190px) rotate(360deg);
+}
+.right_said:hover .small_img:nth-child(5){
+    transform: translate(0px, -20px) rotate(360deg);
+}
+.right_said:hover .small_img:nth-child(6){
+    transform: translate(-90px, 230px) rotate(360deg);
+}
+.right_said:hover .small_img:nth-child(7){
+    transform: translate(90px, -360px) rotate(360deg);
+}
+.right_said:hover .small_img:nth-child(8){
+    transform: translate(-290px, -110px) rotate(360deg);
+}
+.right_said:hover .small_img:nth-child(9){
+    transform: translate(200px, -120px) rotate(360deg);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+

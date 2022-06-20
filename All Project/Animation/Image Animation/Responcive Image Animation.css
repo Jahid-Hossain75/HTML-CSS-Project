@@ -1,0 +1,37 @@
+@media (max-width:1050px){
+    .left_said{
+        margin: 150px 0 0 0;
+    }
+    .right_said{
+        top: 29%;
+        right: 11%;
+    }
+}
+@media (max-width:1050px){
+    .left_said{
+        margin: 100px 0 0 80px;
+        display: block;
+        overflow: hidden;
+    }
+    .right_said{
+        top: 67%;
+        left: 19%;
+        margin-bottom: 100px;
+    }
+    .content{
+    overflow: hidden; 
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
