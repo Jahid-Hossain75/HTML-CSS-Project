@@ -1,0 +1,157 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+body{
+    background: #e3edf1;
+}
+.Container{
+    width: 100%;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    display: flex;
+}
+.header{
+    width: 800px;
+    height: 340px;
+    display: flex;
+    overflow: hidden;
+    box-shadow: -1px 2px 9px 3px #707070;
+}
+.left_said{
+    width: 550px;
+    height: 340px;
+    background: #fff;
+    padding: 30px 70px;
+}
+.right_said{
+    width: 250px;
+    height: 340px;
+    background: #00c585;
+    justify-content: center;
+    align-items: center;
+    padding: 80px 20px;
+    color: #fff;
+}
+.left_said h1{
+    font-size: 27px;
+    color: #00c585;
+}
+.left_said p{
+    font-size: 17px;
+    text-align: center;
+    margin-top: 6px;
+    color: #939393;
+}
+.from{
+    margin-top: 18px;
+}
+.from_name{
+    display: flex;
+}
+.from_name input{
+    width: 50%;
+}
+.from_name input:first-child{
+    margin-right: 10px;
+}
+.address{
+    width: 100%;
+}
+.Optional{
+    width: 100%;
+}
+.from_city{
+    display: flex;
+}
+.from_city input{
+    width: 50%;
+}
+.from_city input:first-child{
+    margin-right: 10px;
+}
+.from_country{
+    display: flex;
+}
+.from_country select{
+    width: 50%;
+    color: #797575;
+}
+.from_country select:first-child{
+    margin-right: 10px;
+}
+.from_number{
+    display: flex;
+}
+.from_number input{
+    width: 50%;
+}
+.from_number input:first-child{
+    margin-right: 10px;
+}
+.from input, select{
+    padding: 4px 4px;
+    font-size: 14px;
+    background: #ececec;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 4px;
+}
+.right_said h1{
+    font-size: 25px;
+    text-align: center;
+}
+.right_said p{
+    width: 100%;
+    text-align: center;
+    font-size: 15px;
+    margin-top: 12px;
+    line-height: 22px;
+}
+.social_link{
+    text-align: center;
+    margin-top: 22px;
+    font-size: 23px;
+}
+.social_link i{
+    color: #fff;
+    margin-right: 8px;
+}
+.social_link .fa-facebook-f:hover{
+    color: #1877f2;
+}
+.social_link .fa-instagram:hover{
+    color: #d32323;
+}
+.social_link .fa-twitter:hover{
+    color: #1da1f2;
+}
+.btn_box{
+    text-align: center;
+    margin-top: 20px;
+}
+button{
+    padding: 4px 8px;
+    background: transparent;
+    color: #fff;
+    font-weight: 600;
+    border: 2px solid #fff;
+    margin-right: 8px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+button:last-child{
+    margin-right: 0px;
+}
+.btn{
+    background: #fff;
+    color: #00c585;
+}
+
+
+
