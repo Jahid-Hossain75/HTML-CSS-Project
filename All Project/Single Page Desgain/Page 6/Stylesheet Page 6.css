@@ -1,0 +1,156 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+.hero{
+    width: 80%;
+    margin: auto;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    margin: 30px auto;
+}
+.navbar ul{
+    flex: 1;
+    text-align: right;
+}
+.navbar ul li{
+    display: inline-block;
+    margin-right: 30px;
+}
+.navbar ul li a{
+    color: #000;
+    font-size: 18px;
+    text-transform: uppercase;
+    padding: 0 10px;
+    position: relative;
+}
+.navbar ul li a::after{
+    content: '';
+    width: 0;
+    height: 8px;
+    background: #f14a60;
+    position: absolute;
+    left: 0;
+    transform: translateX();
+    top: -55px;
+    transition: .4s;
+}
+.navbar ul li a:hover::after{
+    width: 100%;
+}
+.navbar_icon img{
+    height: 25px;
+    margin-left: 40px;
+    cursor: pointer;
+}
+.navbar_icon{
+    margin-left: 40px;
+}
+.banner{
+    display: flex;
+    margin-top: 80px;
+}
+.left_column, .right_column{
+    flex-basis: 50%;
+}
+.right_column img{
+    width: 100%;
+}
+.search_box{
+    width: 45%;
+    display: flex;
+    padding-bottom: 3px;
+    border-bottom: 1px solid #ddd;
+    margin: 10px 0 30px;
+}
+.search_box img{
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+}
+.search_box input{
+    width: 100%;
+    margin-left: 15px;
+    font-size: 17px;
+    border: 0;
+    outline: none;
+}
+.left_column h1{
+    font-size: 90px;
+}
+.left_column h3{
+    font-size: 35px;
+}
+.left_column span{
+    color: #f14a60;
+}
+.left_column p{
+    font-size: 14px;
+    color: #777;
+    margin: 50px 0;
+}
+.btn{
+    margin-bottom: 50px;
+}
+.btn button{
+    padding: 7px 30px;
+    border-radius: 25px;
+    outline: none;
+    border: 1px solid #fb7381;
+    margin-right: 15px;
+    color: #fb7381;
+    background: transparent;
+    cursor: pointer;
+}
+.btn .primary_btn{
+    background: linear-gradient(#fb7381, #f14a60);
+    box-shadow: 0 2px 15px rgba(248, 38, 103, 0.26);
+    color: #fff;
+}
+.social_icon{
+    width: 205px;
+    text-align: center;
+    opacity: .6;
+    position: relative;
+    margin-left: 160px;
+}
+.social_icon .fab{
+    font-size: 24px;
+    margin: 0 14px;
+    cursor: pointer;
+}
+.social_icon::after{
+    content: '';
+    width: 150px;
+    height: 1px;
+    background: #000;
+    position: absolute;
+    left: -160px;
+    top: 12px;
+}
+.social_icon .fa-facebook-f:hover{
+    color: #3b5998;
+}
+.social_icon .fa-twitter:hover{
+    color: #55acee;
+}
+.social_icon .fa-instagram:hover{
+    color: #e4405f;
+}
+.social_icon .fa-pinterest-p:hover{
+    color: #bd081c;
+}
+
+
+
+
+
+
+
+
+
