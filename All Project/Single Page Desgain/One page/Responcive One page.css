@@ -1,0 +1,40 @@
+@media (max-width:1199px){
+
+}
+@media (max-width:991px){
+	/*start header section*/
+
+
+	/*end header section*/
+}
+@media (max-width:767px){
+
+}
+@media(max-width:575px){
+	/*start header section*/
+    .content h1{
+        font-size: 40px;
+        margin: 17px 0px 14px 0px;
+    }
+    .content p{
+        font-size: 21px;
+        color: #232d60;
+    }
+    /*end header section*/
+}
+@media (max-width:435px){
+    .content p span{
+        display: block;
+    }
+     .content p{
+        font-size: 21px;
+        color: #232d60;
+        line-height: 13px;    
+    }
+}
+@media (max-width:370px){
+    .content h1{
+        font-size: 33px;
+        margin: 17px 0px 14px 0px;
+    }
+}

@@ -1,0 +1,122 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+.header {
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(#000000cc,#2a2a2acc),url(Picture/background.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.container{
+    max-width: 1250px;
+    margin: 0 auto;
+    padding: 0 100px;
+}
+.navbar{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 25px 0px;
+}
+nav{
+    flex: 1;
+    text-align: right;
+}
+.logo{
+    width: 120px;
+    cursor: pointer;
+}
+.user_icon{
+    width: 35px;
+    cursor: pointer;
+    border-radius: 50%;
+}
+nav ul li{
+    display: inline-block;
+    margin-right: 30px;
+}
+nav ul li a{
+    font-size: 15px;
+    color: #fff;
+    padding: 5px 2px;
+}
+nav ul li a:hover{
+    border-bottom: 1px solid #ff6b3f;
+}
+.content{
+    max-width: 600px;
+    color: #fff;
+    margin-top: 15%;
+}
+.content h1{
+    font-size: 56px;
+    line-height: 70px;
+    letter-spacing: 1px;
+    margin: 15px 0px;
+}
+.content p{
+    font-size: 13px;
+    line-height: 22px;
+}
+span{
+    color: #ff6b3f;
+}
+.btn_box{
+    margin-top: 20px;
+}
+button{
+    width: 150px;
+    border: 1px solid #ff6b3f;
+    color: #fff;
+    padding: 10px;
+    margin-right: 10px;
+    border-radius: 25px;
+    cursor: pointer;
+    background: #ff6b3f;
+    font-size: 14px;
+}
+.btn{
+    border: 1px solid #fff;
+    background: transparent;
+}
+.sidebar{
+    width: 80px;
+    height: 100vh;
+    background: #000;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.logo_icon{
+    width: 22px;
+    margin: 30px;
+    cursor: pointer;
+}
+.socail_link{
+    font-size: 24px;
+    position: absolute;
+    bottom: 20px;
+}
+.socail_link .fab{
+    width: 80px;
+    text-align: center;
+    display: block;
+    margin: 25px auto;
+    cursor: pointer;
+    color: #fff;
+}
+.socail_link .fa-facebook-f:hover{
+    color: #1877f2;
+}
+.socail_link .fa-instagram:hover{
+    color: #d32323;
+}
+.socail_link .fa-twitter:hover{
+    color: #1da1f2;
+}

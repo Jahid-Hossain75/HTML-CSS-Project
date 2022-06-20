@@ -1,0 +1,226 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    background-image: url('Picture/background.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 0px 5px;
+}
+.navbar{
+    width: 100%;
+    height: 15vh;
+    display: flex;
+    align-items: center;
+    margin: auto;
+}
+header{
+    position: relative;
+    font-size: 30px;
+    font-weight: 600;
+    color: #fff;
+    top: -30px;
+    text-align: center;
+}
+.sidebar{
+    flex: 1;
+}
+.sidebar ul{
+    position: fixed;
+    width: 220px;
+    height: 100vh;
+    top: 0;
+    right: -220px;
+    background: #000;
+    padding-top: 60px;
+    transition: all .5s;
+}
+.sidebar ul li{
+    display: block;
+    padding: 14px 0px 14px 25px;
+    border-top: 1px solid #4b4b4b;
+}
+.sidebar ul li:last-child{
+    border-bottom: 1px solid #4b4b4b;
+}
+.sidebar ul li a{
+    color: #000;
+    font-size: 25px;
+    transition: .4s;
+    color: #fff;
+}
+.sidebar ul li a:hover{
+    padding-left: 13px;
+    color: aqua;
+}
+.sidebar ul li.active a{
+    color: aqua;
+}
+#check{
+    display: none;
+}
+label #btn, label #cancel{
+    position: absolute;
+    cursor: pointer;
+}
+#btn{
+    font-size: 30px;
+    color: #fff;
+    right: 110px;
+    top: 45px;
+}
+#cancel{
+    z-index: 1111;
+    font-size: 23px;
+    color: #fff;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    opacity: 0;
+    transition: .4s;
+}
+#check:checked ~ .sidebar ul{
+    right: 0;
+}
+#check:checked ~ label #btn{
+    left: 0;
+    opacity: 0;
+    pointer-events: none;
+}
+#check:checked ~ label #cancel{
+    right: 15px;
+    opacity: 1;
+}
+#logo{
+    width: 160px;
+    margin-left: 15px;
+    margin-top: 5px;
+}
+.fa-cart-plus{
+    float: ;
+    font-size: 35px;
+    color: coral;
+    position: ;
+    margin-right: 40px;
+    cursor: pointer;
+    transition: .3s;
+}
+.fa-cart-plus:hover{
+    color: #fff;
+}
+.content{
+    margin-left: 10%;
+    margin-top: 10%;
+    width: 500px;
+}
+.content a{
+    color: #fff;
+    font-size: 21px;
+    padding: 7px 10px;
+    border: 1px solid #ddd;
+    background: linear-gradient(45deg, #bc7542, #b2a896);
+    border-radius: 6px;
+    transition: .4s;
+}
+.content a:hover{
+    background: linear-gradient(45deg, #b2a896, #bc7542);
+}
+.content h1{
+    font-size: 60px;
+    color: #232d60;
+    margin: 18px 0px;
+}
+.content p{
+    font-size: 23px;
+    color: #232d60;
+}
+.content p span{
+    display: none;
+}
+.arrow_icon{
+    margin: 22px 0px 30px 0px;;
+}
+.fa-arrow-left, .fa-arrow-right{
+    width: 45px;
+    height: 45px;
+    font-size: 23px;
+    border-radius: 50%;
+    background: linear-gradient(45deg, #bc7542, #b2a896);
+    text-align: center;
+    padding-top: 12px;
+    color: #000;
+    transition: .4s;
+    margin-right: 7px;
+}
+.fa-arrow-left:hover, .fa-arrow-right:hover{
+    color: #fff;
+}
+.fab{
+    font-size: 33px;
+    margin-right: 8px;
+    color: #232d60;
+    cursor: pointer;
+    transition: .4s;
+}
+.fa-facebook-square:hover{
+    color: #3b5998;
+}
+.fa-twitter-square:hover{
+    color: #55acee;
+}
+.fa-instagram-square:hover{
+    color: #ce1126;
+}
+.fa-google-plus-square:hover{
+    color: #dc4e41;
+}
+.fa-linkedin:hover{
+    color: #0077b5;
+}
+.fa-youtube-square:hover{
+    color: #FF0000;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
