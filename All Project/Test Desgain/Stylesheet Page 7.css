@@ -1,0 +1,141 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+.containar{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.7)),url(picture/background.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    overflow: hidden;
+}
+
+.nav{
+    padding: 30px 70px;
+    color: #ddd;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav p{
+    font-size: 37px;
+    cursor: pointer;
+}
+
+.nav .fa-bars{
+    font-size: 35px;
+    cursor: pointer;
+}
+
+.content_box{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    width: 700px;
+    font-family: sans-serif;
+}
+
+.content_box h1{
+    font-size: 50px;
+    color: #e8e8e8;
+    letter-spacing: 1px;
+}
+
+.content_box p{
+    margin: 17px 0 22px;
+    color: #bbb;
+    line-height: 25px;
+    font-size: 17px;
+}
+
+.content_box button{
+    width: 175px;
+    height: 50px;
+    border: 2px solid #fff;
+    background: transparent;
+    color: #fff;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: .4s;
+}
+
+.content_box button:hover{
+    background: #f44336;
+}
+
+.saidbar{
+    width: 60px;
+    height: 335px;
+    position: absolute;
+    top: 50%;
+    right: 50px;
+    transform: translateY(-50%);
+    background: #fff;
+    border-radius: 5px;
+}
+
+.icon_box{
+    width: 50px;
+    height: 50px;
+    margin: 5px auto;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    transition: .5s;
+}
+
+.said_text{
+    min-width: 0px;
+    height: 100%;
+    background: #f44336;
+    color: #fff;
+    margin-right: 5px;
+    border-radius: 5px 0 0 5px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    line-height: 0;
+    overflow: hidden;
+    transition: .5s;
+}
+
+.icon{
+    min-width: 50px;
+    height: 100%;
+    cursor: pointer;
+    text-align: center;
+    border-radius: 5px;
+    transition: .5s;
+}
+
+.icon .fas,
+.icon .fab{
+    color: #f44336;
+    font-size: 20px;
+    line-height: 50px;
+}
+
+.icon_box:hover .icon{
+    background: #f44336;
+}
+
+.icon_box:hover .icon .fas,
+.icon_box:hover .icon .fab{
+    color: #fff;
+}
+
+.icon_box:hover .said_text{
+    min-width: 140px;
+}
+
+

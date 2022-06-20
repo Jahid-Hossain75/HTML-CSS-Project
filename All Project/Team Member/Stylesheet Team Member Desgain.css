@@ -1,0 +1,89 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*****start Team member box*****/
+.container{
+	width: 1200px;
+	margin: auto;
+}
+.team_member{
+    width: 366px;
+    float: left;
+    overflow: hidden;
+    text-align: center;
+    padding: 60px 23px;
+    background: #c8c8c873;
+    margin: 10px 17px;
+    box-sizing: border-box;
+    position: relative;
+    top: 100px;
+    box-shadow: 0px 1px 6px 0px #747474;
+    transition: 0.5s;
+}
+.team_member:hover{
+    transform: translateY(-12px);
+    box-shadow: 0px 2px 12px 0px #747474;
+}
+.team_member h3{
+    font-size: 29px;
+    margin: 27px 0px 18px 0px;
+}
+.team_member p{
+    text-align: justify;
+}
+.socail{
+    margin-top: 30px;
+}
+.socail ul li{
+    list-style: none;
+}
+.socail ul li a{
+    text-decoration: none;
+    float: left;
+    margin-right: 10px;
+    transition: 0.4s;
+}
+.socail ul li a:hover{
+    transform: scale(0.8)
+}
+.socail ul li:last-child a{
+    margin-right: 0px;
+}
+.socail ul li:first-child a{
+    margin-left: 50px;
+}
+.team_photo_1{
+    background: url('Picture/image_1.jpeg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin: auto;
+}
+.team_photo_2{
+    background: url('Picture/image_2.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin: auto;
+}
+.team_photo_3{
+    background: url('Picture/image_3.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin: auto;
+}
+.socail ul li a img{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+}
+/*****end Team Member box*****/

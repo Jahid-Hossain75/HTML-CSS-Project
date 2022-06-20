@@ -1,0 +1,32 @@
+@media(min-width:1200px){
+	/*Extra large Devaice*/
+	
+}
+@media(min-width:992px) and (max-width:1199px){
+	/*large Devaice*/
+	/****start footer section****/
+    
+    /****end footer section****/
+}
+@media(min-width:768px) and (max-width:991px){
+	/*medium Devaice*/
+    /****start footer section****/
+    
+    /****end footer section****/
+}
+@media(min-width:576px) and (max-width:767px){
+	/*small Devaice*/
+    /****start footer section****/
+   
+    /****end footer section****/
+}
+@media(max-width:575px){
+	/*Extra small Devaice*/
+	/****start Team Member box****/
+    .team_member{
+        float: none;
+        margin: auto auto 30px auto;
+    }
+    /****end Team Member box****/
+
+}
