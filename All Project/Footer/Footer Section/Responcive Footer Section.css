@@ -1,0 +1,27 @@
+@media(min-width:1200px){
+	/*Extra large Devaice*/
+	
+}
+@media(min-width:992px) and (max-width:1199px){
+	/*large Devaice*/
+	
+}
+@media(min-width:768px) and (max-width:991px){
+	/*medium Devaice*/
+    
+}
+@media(min-width:576px) and (max-width:767px){
+	/*small Devaice*/
+    /****start Navigation bar****/
+
+    /****end Navigation bar****/
+}
+@media(max-width:575px){
+	/*Extra small Devaice*/
+	/****start footer section****/
+.footer_bolok{
+    float: none;
+}
+    /****end footer section****/
+
+}

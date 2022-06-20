@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: arial;
+}
+/*****Start Footer Section*****/
+.footer_section{
+    background: #343434;
+    color: white;
+    padding: 50px 0px;
+    width: 100%;
+}
+.footer_section::after{
+    content: "";
+    clear: both;
+    display: block;
+}
+.container{
+    width: 1170px;
+    margin: auto;
+    max-width: 1200px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.container::after{
+    content: "";
+    clear: both;
+    display: block;
+}
+.footer_bolok{
+    width: 240px;
+    margin-right: 70px;
+}
+.footer_bolok:last-child{
+    margin-right: 0px;
+}
+.footer_bolok h2{
+    text-transform: uppercase;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 4px;
+    font-family: auto;
+}
+/*****Start about us*****/
+.footer_bolok p{
+    font-size: 15px;
+    text-align: justify;
+    color: #ddd;
+}
+/*****end about us*****/
+/*****Start Castom menu*****/
+.footer_bolok label{
+    display: block;
+    margin-bottom: 8px;
+}
+.castom_menu label{
+    border-bottom: 1px solid #dddddd5c;
+}
+.footer_bolok a{
+    color: #ddd;
+    text-decoration: none;
+    font-size: 15px;
+    margin-left: 8px;
+    transition: 0.3s;
+}
+.footer_bolok a:hover{
+    text-decoration: underline;
+    color: red;
+}
+/*****end Castom menu*****/
+/*****start Contact us*****/
+.contact_all label a{
+    font-size: 15px;
+    position: relative;
+    bottom: 14px;
+}
+.icons{
+    width: 22px;
+    position: relative;
+    top: 5px;
+}
+.icons_2{
+    position: relative;
+    top: -8px;
+}
+.contact_all p {
+    font-size: 15px;
+    position: relative;
+    left: 36px;
+    bottom: 17px;
+}
+/*****end Contact us*****/
+/*****start Subscribe us*****/
+.subscribefrom #input_btn{
+    width: 100%;
+    padding: 4px 8px;
+    font-size: 15px;
+    border: 1px solid black;
+    border-radius: 4px;
+    background: #e7e7e7;
+    letter-spacing: 0.5px;
+}
+.subscribefrom #input_btn:focus{
+	background:#fff;
+}
+.subscribefrom #input_btn:focus{
+	background:#fff;
+}
+.subscribefrom #input_btn[type="email"]:invalid{
+	box-shadow: 0px 0px 1px 2px red;
+}
+.subscribefrom #subscribebtn{
+    width: 50%;
+    background: linear-gradient(#0adee9,#e1e1e1);
+    padding: 8px 17px;
+    font-size: 16px;
+    border-radius: 4px;
+    border: 1px solid black;
+    font-weight: 600;
+    margin-top: 14px;
+    cursor: pointer;
+}
+.subscribefrom #subscribebtn:hover{
+    background: linear-gradient(#e1e1e1, #0adee9);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*****end Footer Section*****/
