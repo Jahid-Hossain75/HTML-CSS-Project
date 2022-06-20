@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+body{
+    background: #fff;
+    font-family: 'Inter', sans-serif;
+    color: #fff;
+}
+
+.container{
+    max-width: 430px;
+    margin: 0 auto;
+    background: #313438;
+    min-height: 100vh;
+}
+
+i{
+    font-size: 1.5em;
+	color#fff;
+}
+
+.relationship{
+    width: 6em;
+    text-align: center;
+    padding: .4em .5em;
+    border-radius: 100px;
+    border-top-left-radius: 0;
+    font-size: .8em;
+    background: #75a85e;
+}
+
+a{
+    color: #fff;
+}
+
+.hero{
+    background: linear-gradient(90deg, rgba(66,159,124,1) 35%, rgba(161,202,78,1) 100%);
+    padding: 25px 0;
+}
+
+.fa-arrow-circle-left{
+    font-size: 1.7em;
+    padding-left: 1em;
+}
+
+.hero_info{
+    display: flex;
+    align-items: center;
+    flex-flow: column;
+}
+
+.Name{
+    padding-bottom: 1em;
+}
+
+.contact_info{
+    padding: 1em 1.5em 3em;
+}
+
+.info_line{
+    display: flex;
+    width: 90%;
+    margin: 0 auto;
+    align-items: center;
+    padding: 1.3em 2em;
+    margin-top: 1.4em;
+    border-radius: 20px;
+    box-shadow: 6px 6px 12px #2d2f33,
+                -6px -6px 12px #35393d;
+}
+
+.info_line .fa-sms{
+    padding-left: 0;
+}
+
+.info_line p,
+.sett_button p{
+    margin: 0;
+    padding-left: 1.7em;
+}
+
+.info_line i,
+.sett_button .fa-check-circle,
+.sett_button .fa-trash,
+.edit_button .fa-cog{
+    width: 45px;
+    height: 45px;
+    background: linear-gradient(90deg, rgba(66,159,124,1) 35%, rgba(161,202,78,1) 100%);
+    border-radius: 50%;
+    line-height: 45px;
+    text-align: center;
+}
+
+.edit_contact{
+    text-align: center;
+    padding:  .5em 0 3em;
+}
+
+.info_line input{
+    width: 76%;
+    margin-left: 1.7em;
+    padding: 4px 0;
+    background: transparent;
+    border: none;
+    outline: none;
+    color: #fff;
+    font-size: 1em;
+}
+
+::placeholder{
+    color: #a8a8a8;
+}
+
+.sett_button{
+    display: flex;
+    width: 70%;
+    margin: 0 auto;
+    align-items: center;
+    padding: 1.3em 2em;
+    margin-top: 1.4em;
+    border-radius: 20px;
+    box-shadow: 6px 6px 12px #2d2f33,
+                -6px -6px 12px #35393d;
+}
+
+.contact_info .delete_pra{
+    width: 80%;
+    text-align: center;
+    margin: 15px auto 20px;
+}
+
+
+
+
+
+
+
+/**======******** start*********======**/
+/**======******** start*********======**/
+/**======******** start*********======**/
+/**======******** start*********======**/
+/**======******** start*********======**/
+/**======******** start*********======**/
+/**======******** start*********======**/
+/**======******** start*********======**/
+/**======******** start*********======**/
+/**======******** start*********======**/
+/**======******** start*********======**/
+/**======******** start*********======**/
+/**======******** start*********======**/
+/**======******** start*********======**/
+/**======******** start*********======**/
+/**======******** start*********======**/
