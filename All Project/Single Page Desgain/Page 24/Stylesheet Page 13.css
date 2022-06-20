@@ -1,0 +1,330 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    font-family: sans-serif;
+}
+
+/*******====
+LEFT SAID START
+====*******/
+
+.containar {
+    width: 100%;
+    height: 100vh;
+    background: #fff;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+}
+
+.left_said {
+    flex-basis: 30%;
+    height: 100vh;
+    background: #ef0000;
+    position: relative;
+}
+
+.fa-bars {
+    color: #fff;
+    font-size: 40px;
+    margin-left: 35px;
+    margin-top: 30px;
+    cursor: pointer;
+}
+
+.logo {
+    margin-left: 100px;
+    margin-top: 15px;
+}
+
+.logo h2 {
+    color: #fff;
+}
+
+.logo p {
+    color: #cccccc;
+}
+
+.line_1 {
+    width: 275px;
+    height: 15px;
+    background: #fff;
+    position: absolute;
+    left: 186px;
+    top: 22%;
+}
+
+.pragraph {
+    width: 380px;
+    margin-left: 80px;
+    margin-top: 50px;
+}
+
+.fa-quote-left {
+    font-size: 37px;
+    opacity: 0.5;
+    margin-bottom: 10px;
+    color: #fff;
+}
+
+.fa-quote-right {
+    font-size: 37px;
+    opacity: 0.5;
+    color: #fff;
+    margin: 10px 0 0 140px;
+}
+
+.pragraph p {
+    color: #ddd;
+    line-height: 22px;
+}
+
+.said_menu {
+    width: 100%;
+    transform: rotate(-90deg);
+    position: absolute;
+    left: -180px;
+    bottom: 300px;
+}
+
+.said_menu ul li {
+    display: inline-block;
+    margin-right: 25px;
+}
+
+.said_menu ul li a {
+    color: #fff;
+    font-size: 14px;
+}
+
+.angel {
+    position: absolute;
+    bottom: 14%;
+    left: 35%;
+}
+
+.angel a {
+    display: block;
+    width: 40px;
+    height: 40px;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.angel a .fas {
+    font-size: 35px;
+    color: #fff;
+    text-align: center;
+    line-height: 40px;
+}
+
+.angel a:last-child {
+    margin-bottom: 0;
+}
+
+.bottom_img {
+    width: 250px;
+    position: absolute;
+    bottom: 10%;
+    right: -38px;
+}
+
+/*******====
+LEFT SAID END
+====*******/
+
+
+/*******====
+RIGHT SAID START
+====*******/
+
+.right_said {
+    flex-basis: 70%;
+    height: 100vh;
+    position: relative;
+}
+
+.right_said .nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 700px;
+    position: absolute;
+    right: 0;
+    top: 10%;
+}
+
+.nav ul li {
+    display: inline-block;
+    margin-right: 35px;
+}
+
+.nav ul li a {
+    color: #000;
+    font-size: 15px;
+}
+
+.fa-user {
+    margin-right: 50px;
+    font-size: 25px;
+    cursor: pointer;
+    color: #000;
+}
+
+.fa-search {
+    font-size: 19px;
+    cursor: pointer;
+    color: #000;
+    margin-right: 35px;
+}
+
+.line_2 {
+    width: 275px;
+    height: 15px;
+    background: #ff0000;
+    position: absolute;
+    left: 0px;
+    top: 22%;
+}
+
+.line_2 span {
+    width: 7px;
+    height: 15px;
+    background: #ff0000;
+    position: absolute;
+    right: -12px;
+    top: 0;
+}
+
+.mein_img {
+    width: 260px;
+    position: absolute;
+    top: 46%;
+    right: 120px;
+    transform: translateY(-50%);
+}
+
+.mein_img img {
+    width: 100%;
+}
+
+.mein_img h1 {
+    font-size: 69px;
+    transform: rotate(-90deg) translateY(-38%);
+    position: absolute;
+    top: 45%;
+    right: 29%;
+    color: #e5e5e5;
+}
+
+.mein_img .fas {
+    float: right;
+    padding-bottom: 15px;
+    font-size: 32px;
+    cursor: pointer;
+}
+
+.line_4 {
+    width: 150px;
+    height: 8px;
+    background: #ff0000;
+    position: absolute;
+    right: 120px;
+    bottom: 15%;
+}
+
+.line_4 span {
+    width: 5px;
+    height: 8px;
+    background: #ff0000;
+    position: absolute;
+    left: -9px;
+    bottom: 0;
+}
+
+.content_box {
+    width: 500px;
+    position: absolute;
+    top: 28%;
+    left: 5%;
+}
+
+.content_box h1 {
+    font-size: 60px;
+    line-height: 60px;
+    margin-bottom: 30px;
+}
+
+.content_box p {
+    line-height: 22px;
+    margin-bottom: 80px;
+}
+
+.line_5 {
+    width: 115px;
+    height: 3px;
+    background: #000;
+    position: absolute;
+    bottom: 0;
+    right: 45px;
+}
+
+.line_5 span {
+    width: 10px;
+    height: 3px;
+    background: #000;
+    position: absolute;
+    bottom: 0;
+    left: -20px;
+}
+
+.content_box .fas {
+    font-size: 32px;
+    position: absolute;
+    right: 0;
+    bottom: -17px;
+}
+
+.line_6 {
+    width: 100px;
+    height: 3px;
+    background: #000;
+    position: absolute;
+    bottom: 17%;
+    left: 35px;
+    transform: rotate(-90deg)
+}
+
+.line_6 span {
+    position: absolute;
+    bottom: -8px;
+    right: -48px;
+    font-size: 15px;
+}
+
+.social_link {
+    position: absolute;
+    bottom: 7%;
+    right: 50px;
+}
+
+.social_link ul li .fab {
+    font-size: 22px;
+    margin-bottom: 22px;
+    color: #000;
+}
+
+.fa-shopping-bag {
+    margin-top: 30px;
+    font-size: 27px;
+    cursor: pointer;
+}
+
+/*******====
+RIGHT SAID END
+====*******/
