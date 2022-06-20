@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: url('Picture/back_web-design.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/*****start Navegation bar*****/
+.nav_bar{
+    background: #a3a299;
+    text-align: center;
+    padding: 7px 0px;
+}
+.nav_bar ul{
+    padding: 0;
+    margin: 0;
+    display: inline-flex;
+    list-style: none;
+}
+.nav_bar ul li{
+    width: 120px;
+    padding: 15px 10px;
+    margin: 0px 5px;
+    transition: 0.3s;
+}
+.nav_bar ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 21px;
+}
+.active, .nav_bar ul li:hover{
+    background: #0eadd1;
+    border-radius: 7px;
+}
+.nav_bar fa{
+    margin-right: 8px;
+}
+.sub_menu_1{
+    display: none;
+}
+.nav_bar ul li:hover .sub_menu_1{
+    display: block;
+    position: absolute;
+    background: #a3a299;
+    margin-top: 15px;
+    margin-left: -10px;
+}
+.nav_bar ul li:hover .sub_menu_1 ul{
+    display: block;
+}
+.nav_bar ul li:hover .sub_menu_1 ul li{
+    width: 150px;
+    padding: 10px;
+    border-bottom: 1px dotted #fff;
+    background: transparent;
+    border-radius: 0;
+    text-align: left;
+}
+.nav_bar ul li:hover .sub_menu_1 ul li:last-child{
+    border-bottom: none;
+}
+.sub_menu_1 ul li a:hover{
+    color: #e5e5e5;
+}
+.nav_bar ul li:hover .contact_menu ul li{
+    width: 180px;
+}
+.sub_menu_2{
+    display: none;
+}
+.hover_me:hover .sub_menu_2{
+    position: absolute;
+    margin-top: -40px;
+    margin-left: 140px;
+    background: #a3a299;
+    display: block;
+}
+.sub_menu_1 ul li label{
+    float: right
+}
+/*****end Navegation bar*****/
